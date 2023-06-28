@@ -1,4 +1,4 @@
-[![Release](https://github.com/shpetimhaxhiu/simple-electron-notes-app/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/shpetimhaxhiu/simple-electron-notes-app/actions/workflows/release.yml)
+[![Release](https://github.com/shpetimhaxhiu/simple-electron-notes-app/actions/workflows/release.yml/badge.svg)](https://github.com/shpetimhaxhiu/simple-electron-notes-app/actions/workflows/release.yml)
 
 # Electron Notes App
 
