@@ -4,9 +4,7 @@ This is a simple Electron application for taking and managing notes. It uses
 Electron to create a desktop application with a web-based user interface. The
 application uses NeDB, a lightweight JavaScript database, for storing note data.
 
-<img src="./screenshot.png" width="300">
-<img src="./screenshot-2.png" width="300">
-<img src="./screenshot-3.png" width="300">
+![Electron Notes App](screenshot.png)
 
 ## Features
 
