@@ -21,7 +21,7 @@ application uses NeDB, a lightweight JavaScript database, for storing note data.
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/electron-notes-app.git
+   git clone https://github.com/shpetimhaxhiu/simple-electron-notes-app.git
    ```
 
 2. Install the dependencies
