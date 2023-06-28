@@ -1,0 +1,101 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Nanum+Pen+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Add styles here to customize the appearance of your app */
+
+/* All headers should use font-family: 'Inter',
+sans-serif;
+font-family: 'Nanum Pen Script',
+cursive;
+font-family: 'Open Sans',
+sans-serif;
+ */
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+    font-family: "Nanum Pen Script", cursive;
+}
+
+.display-5 {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+
+
+[data-bs-theme=dark] .container {
+    background-color: #1f1f1f !important;
+}
+
+[data-bs-theme=light] .container {
+    background-color: #fff !important;
+}
+
+.container {
+    /* Set the height of the container */
+    height: 100vh;
+    /* Set overflow to auto, so the scrollbar only appears when necessary */
+    overflow-y: auto;
+    /* The scrollbar should be transparent by default (not visible) */
+    scrollbar-color: transparent transparent;
+    /* This is necessary for Webkit browsers like Safari and Chrome */
+    scrollbar-width: thin;
+}
+
+.container::-webkit-scrollbar {
+    /* The width of the scrollbar. It can be thin, auto, or a specific size */
+    width: 12px;
+}
+
+.container::-webkit-scrollbar-track {
+    /* The track is the section of the scrollbar where the thumb (the interactive part) sits */
+    background: transparent;
+}
+
+.container::-webkit-scrollbar-thumb {
+    /* The thumb is the interactive part of the scrollbar */
+    background-color: transparent;
+    /* Add some roundness to match macOS style */
+    border-radius: 6px;
+    /* Add a border that matches the track */
+    border: 3px solid transparent;
+    /* Let's create a padding to the right so it's not glued to the edge */
+    background-clip: padding-box;
+}
+
+.container:hover {
+    /* Change the scrollbar color on hover */
+    scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
+
+.container:hover::-webkit-scrollbar-thumb {
+    /* Change the scrollbar color on hover for webkit browsers */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 15px;
+    margin: 0;
+} */

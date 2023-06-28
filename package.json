@@ -1,0 +1,18 @@
+{
+  "name": "central-zipper-trick-amk6q",
+  "productName": "central-zipper-trick-amk6q",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "ShpetimHaxhiu",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "bootstrap": "5.2.3",
+    "electron": "24.0.0",
+    "electron-reload": "2.0.0-alpha.1",
+    "nedb": "1.8.0"
+  }
+}
