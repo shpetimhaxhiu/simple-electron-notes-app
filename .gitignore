@@ -17,3 +17,4 @@ backup*
 *[0-9].md
 
 *.py
+dist

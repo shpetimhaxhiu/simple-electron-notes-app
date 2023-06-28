@@ -24,12 +24,14 @@
       "category": "public.app-category.productivity"
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "bootstrap": "5.2.3",
-    "electron": "24.0.0",
-    "electron-builder": "22.13.1",
     "electron-reload": "2.0.0-alpha.1",
     "nedb": "1.8.0"
+  },
+  "devDependencies": {
+    "electron": "24.0.0",
+    "electron-builder": "22.13.1"
   },
   "license": "MIT"
 }
