@@ -1,3 +1,5 @@
+[![Release](https://github.com/shpetimhaxhiu/simple-electron-notes-app/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/shpetimhaxhiu/simple-electron-notes-app/actions/workflows/release.yml)
+
 # Electron Notes App
 
 This is a simple Electron application for taking and managing notes. It uses
