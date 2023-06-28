@@ -54,7 +54,7 @@ function createWindow() {
   // Menu.setApplicationMenu(Menu.buildFromTemplate(mainMenu));
 
   // Open the DevTools
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 
   // Load index.html into the new BrowserWindow
   mainWindow.loadFile("index.html");
@@ -105,9 +105,9 @@ app.on("window-all-closed", function () {
   if (process.platform !== "darwin") app.quit();
 });
 
-// Initialize NeDB with a filename and autoload option
+// Create notes database in the app's user data directory
 const db = new Datastore({
-  filename: path.join(app.getAppPath(), "notes.db"),
+  filename: path.join(app.getPath("userData"), "notes.db"),
   autoload: true,
 });
 

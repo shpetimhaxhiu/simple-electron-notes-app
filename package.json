@@ -21,12 +21,18 @@
   "build": {
     "appId": "com.shpetimhaxhiu.simpleelectronnotesapp",
     "mac": {
-      "category": "public.app-category.productivity"
+      "category": "public.app-category.productivity",
+      "icon": "app-icon.icns"
+    },
+    "win": {
+      "icon": "app-icon.png"
+    },
+    "linux": {
+      "icon": "app-icon.png"
     }
   },
   "dependencies": {
     "bootstrap": "5.2.3",
-    "electron-reload": "2.0.0-alpha.1",
     "nedb": "1.8.0"
   },
   "devDependencies": {
