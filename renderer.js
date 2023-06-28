@@ -50,22 +50,6 @@ let formSubmitHandler = (evt) => {
 getById("note-form").addEventListener("submit", formSubmitHandler);
 
 ipcRenderer.on("note-added", (event, id) => {
-  // const noteList = getById("note-list");
-  // const noteItem = createElement("li");
-  // noteItem.textContent = `${getById("note").value} ${
-  //   getById("extra-note").value
-  // }`;
-  // noteItem.id = `note-${id}`;
-
-  // const deleteButton = createElement("button");
-  // deleteButton.className = "delete-button";
-  // deleteButton.dataset.id = id;
-  // deleteButton.textContent = "X";
-
-  // noteItem.appendChild(deleteButton);
-  // noteItem.className = "list-group-item";
-  // noteList.appendChild(noteItem);
-
   clearInputs(ipcRenderer);
 });
 

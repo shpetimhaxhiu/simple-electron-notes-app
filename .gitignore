@@ -8,5 +8,12 @@ backup*
 
 *.log
 *.db
+*-clean*
 
 **.vscode**
+
+# Ignore .md files that end with number (e.g. README.1.md)
+# This is useful for README.1.md, README.2.md, etc.
+*[0-9].md
+
+*.py

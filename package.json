@@ -1,11 +1,18 @@
 {
-  "name": "central-zipper-trick-amk6q",
-  "productName": "central-zipper-trick-amk6q",
-  "description": "My Electron application description",
-  "keywords": [],
-  "main": "./main.js",
+  "name": "simple-electron-notes-app",
+  "productName": "Simple Electron Notes App",
+  "description": "A simple Electron application for taking and managing notes on the fly.",
   "version": "1.0.0",
-  "author": "ShpetimHaxhiu",
+  "author": "Shpetim Haxhiu <shpetim.h@gmail.com> (https://github.com/shpetimhaxhiu)",
+  "repository": "https://github.com/shpetimhaxhiu/simple-electron-notes-app",
+  "main": "main.js",
+  "keywords": [
+    "electron",
+    "notes",
+    "app",
+    "simple",
+    "desktop"
+  ],
   "scripts": {
     "start": "electron ."
   },
@@ -14,5 +21,6 @@
     "electron": "24.0.0",
     "electron-reload": "2.0.0-alpha.1",
     "nedb": "1.8.0"
-  }
+  },
+  "license": "MIT"
 }
